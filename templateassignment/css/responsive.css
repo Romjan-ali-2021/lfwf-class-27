@@ -1,0 +1,290 @@
+
+
+
+
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    .fulpage {
+        width: 100%;
+        /* margin: 0 auto; */
+        max-width: 100%;
+        padding: 0 21px;
+    }
+    .block {
+        width: 245px;
+        float: left;
+        height: 225px;
+        margin-right: 72px;
+    }
+}
+@media (max-width: 1399px) {
+    .fulpage {
+        /* width: 100%;
+        /* margin: 0 auto; */
+        max-width: 100%;
+        padding: 0 21px;
+    } 
+    .block {
+        width: 244px;
+        float: left;
+        height: 225px;
+        margin-right: 42px;
+    }
+}
+@media (max-width: 1242px) {
+    /* .fulpage {
+         width: 100%;
+        margin: 0 auto; 
+        max-width: 100%;
+        padding: 0 21px;
+    }  */
+    .block {
+        width: 244px;
+        float: left;
+        height: 225px;
+        margin-right: 35px;
+    }
+    .r-blok{
+        margin-right: 0 !important;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .header-bg {
+        background-color: #0b826a;
+    }
+    .slide-bg {
+        background-position: 100%;
+        background-image: linear-gradient(#145a5ac4,#0f3e3e94),url(../photos/header-bg01.jpg);
+    }
+    .block {
+        width: 23%;
+        float: left;
+        height: 225px;
+        margin: 0 10px;
+        box-shadow: 1px 1px 11px -6px;
+    }
+    .all-contact-d {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-detals {
+        width: 29%;
+        height: 140px;
+        float: left;
+        margin: 10px 20px;
+    }
+
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 1042px) { 
+    .block {
+        width: 47%;
+       padding: 0 10px;
+        margin: 10px;
+        box-shadow: 1px 1px 11px -6px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 965px) {
+    .contact-detals {
+        width: 24%;
+        height: 140px;
+        float: left;
+        /* margin: 10px 20px; */
+    }
+    .img3333{
+        display: none;
+    }
+    .section2 {
+        padding: 50px 0;
+        height: 529px;
+        font-family: Open Sans, sans-serif;
+        color: #626262;
+    }
+    .imgdiv {
+        width: 47%;
+        height: auto;
+        float: left;
+    }
+    .img-detels {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .header-logo {
+        width: 20%;
+        float: left;
+        color: #fff;
+        padding: 15px 0;
+        font-size: 10px;
+    }
+    #navBar {
+        width: 80%;
+        float: right;
+    }
+ }
+@media (max-width: 767.98px) { 
+    body {
+        background: #ddd;
+        /* font-family: sans-serif; */
+        font-family: Open Sans, sans-serif;
+    }
+    .header-bg {
+        background-color: #9a9797;
+    }
+    .fulpage {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 16px;
+    }
+    .header-logo {
+        /* width: 30%; */
+        /* float: left; */
+        /* color: #fff; */
+        padding: -1px 0;
+        display: none;
+    }
+    #navBar {
+        width: 100%;
+        /* float: right; */
+    }
+    #navBar ul {
+        text-align: center;
+    }
+    .slide-bg {
+        background-position: 100%;
+        background-image: linear-gradient(#b3b1b287,#b5b5b966),url(../photos/header-bg01.jpg);
+    }
+    .block {
+        width: 46%;
+        /* padding: 0 1px; */
+        margin: 10px;
+        box-shadow: 1px 1px 11px -6px;
+    }
+    .imgdiv {
+        width: 100%;
+        text-align: center;
+        /* height: auto; */
+        /* float: left; */
+    }
+    .img-content {
+        width: 100%;
+        float: right;
+        margin-top: 22px;
+    }
+}
+
+ /* X-Small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+    body {
+        background: #fff;
+        /* font-family: sans-serif; */
+        font-family: Open Sans, sans-serif;
+    }
+    .header-bg {
+        background-color: #080808;
+    }
+    .header-logo {
+        display: block;
+    }
+    .fulpage {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 13px;
+    }
+    #navBar {
+        width: 100%;
+    }
+    #navBar ul {
+        text-align: center;
+    }
+    .slide-bg {
+        min-width: 100%;
+        background: cadetblue;
+        height: 230px; 
+    }
+    .slider-section {
+        text-align: center;
+        padding: 30px 0;
+    }
+    .slider-section h1 {
+        color: #fff;
+        font-size: 30px;
+        text-transform: capitalize;
+        padding: 15px;
+    }
+    .slider-section span {
+        font-size: 16px;  
+    }
+    .content-block {
+        width: 100%;
+        text-align: center;
+        color: #626262;
+    }
+    .content-block h1 {
+        font-size: 27px;
+        margin: 13px 0;
+        font-family: Open Sans, sans-serif;
+    }
+    .content-block p {
+        margin-bottom: 50px;
+        font-family: Open Sans, sans-serif;
+    }
+    .block {
+         padding: 30px 0;
+    }
+    .block {
+         width: 100%;
+        margin: 0 auto;
+    }
+    .imgdiv {
+        width: 100%;
+    }
+    .imgdiv img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    .img-content {
+        width: 100%;
+        float: left;
+        margin-top: 37px;
+        /* padding-left: 41px; */
+    }
+    .all-contact-d {
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+    .contact-detals {
+        width: 100%;
+        height: 130px;
+        float: left;
+        margin: 10px 0;
+    }
+    .local-bg {
+        background-color: #3a3e3d;
+    }
+    .foot-icon li a {
+        padding: 12px 15px;
+        display: inline-block;
+    }
+    .last-footer p {
+        color: #626262;
+        font-size: 12px;
+    }
+     
+ }
+
+ /* No media query since the xxl breakpoint has no upper bound on its width
+ XX-Large devices (larger desktops) */
